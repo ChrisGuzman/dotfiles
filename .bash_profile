@@ -51,6 +51,10 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 # pretty colors
 export LESS='-R'
 
+#Android and adb
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
 # Enable bash completion for git commands/branches
 source /usr/local/etc/bash_completion.d/git-completion.bash
 
